@@ -1,11 +1,8 @@
-import React from "react";
-
 export default function Home() {
   return (
-    <section id="home">
-      <div className="intro">
-        <h1 className="page-title slide-in-left">Sarah Norman</h1>
-      </div>
+    <section id="home" className="hero">
+      <h1 className="page-title">Sarah Norman</h1>
+      <p className="hero-subtitle">UX/UI Designer</p>
     </section>
   );
 }
