@@ -14,6 +14,9 @@ export default function Navbar() {
         <li>
           <a href="#contact">Contact</a>
         </li>
+        <li>
+          <a href="/sarahnportfolio/resume_2026.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+        </li>
       </ul>
     </nav>
   );

@@ -148,6 +148,21 @@ section#about {
   margin: 0 auto;
 }
 
+.about-grid {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 48px;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
 .about-title {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 700;
@@ -516,6 +531,17 @@ footer p {
   nav ul li a {
     font-size: 0.82rem;
     padding: 6px 12px;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+  }
+
+  .about-title,
+  .about-text {
+    text-align: center;
   }
 
   .project-item {
