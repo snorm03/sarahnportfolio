@@ -15,6 +15,51 @@ export default function Projects({ onNavigate }) {
       <article className="project-item">
         <span className="project-number">01</span>
         <div className="project-content">
+          <h3>
+            <a href="https://mydigitaldiaryproject.netlify.app/" target="_blank" rel="noopener noreferrer">
+              My Digital Diary
+            </a>
+          </h3>
+          <p>
+            A web-based digital journaling application designed for personal
+            reflection and everyday note-taking. Built with a clean, accessible
+            interface that makes writing feel effortless and enjoyable.
+          </p>
+          <iframe
+            src="https://mydigitaldiaryproject.netlify.app/"
+            className="project-embed"
+            title="My Digital Diary site preview"
+            loading="lazy"
+          />
+        </div>
+      </article>
+
+      <article className="project-item">
+        <span className="project-number">02</span>
+        <div className="project-content">
+          <h3>
+            <a href="https://driftwoodcafeauth.netlify.app/" target="_blank" rel="noopener noreferrer">
+              Driftwood Cafe
+            </a>
+          </h3>
+          <p>
+            A full website for Driftwood Cafe, a coffee shop centered around
+            community connection. Designed and built with a warm, welcoming
+            aesthetic that reflects the cafe's identity, featuring intuitive
+            navigation and a layout optimized for both desktop and mobile visitors.
+          </p>
+          <iframe
+            src="https://driftwoodcafeauth.netlify.app/"
+            className="project-embed"
+            title="Driftwood Cafe site preview"
+            loading="lazy"
+          />
+        </div>
+      </article>
+
+      <article className="project-item">
+        <span className="project-number">03</span>
+        <div className="project-content">
           <h3>DustBuddies</h3>
           <p>
             A mobile chore management app that transforms shared responsibilities
@@ -38,7 +83,7 @@ export default function Projects({ onNavigate }) {
       </article>
 
       <article className="project-item">
-        <span className="project-number">02</span>
+        <span className="project-number">04</span>
         <div className="project-content">
           <h3>
             <a href="https://www.figma.com/design/7fkRq7ZH2gZwm1pXdi56qB/Mobile-App-Redesign?node-id=0-1&t=AbceVJ5NZuuBFGwd-1">
@@ -74,7 +119,7 @@ export default function Projects({ onNavigate }) {
       </article>
 
       <article className="project-item">
-        <span className="project-number">03</span>
+        <span className="project-number">05</span>
         <div className="project-content">
           <h3>
             <a href="https://students.gaim.ucf.edu/~sa519315/dig3134c/assignments/assignment05/login.php">
@@ -101,23 +146,6 @@ export default function Projects({ onNavigate }) {
               className="cms-project-img"
             />
           </div>
-        </div>
-      </article>
-
-      <article className="project-item">
-        <span className="project-number">04</span>
-        <div className="project-content">
-          <h3>
-            <a href="https://www.youtube.com/shorts/ybOvsA-Mhmo">
-              React Native Exercise App
-            </a>
-          </h3>
-          <p>
-            This mobile app was designed to help users track two common types of
-            workouts: repetition-based and duration-based exercises. Built using
-            React Native, the application offers a clean, intuitive interface and
-            smooth interaction patterns to support a seamless workout experience.
-          </p>
         </div>
       </article>
     </section>
