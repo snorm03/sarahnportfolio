@@ -60,6 +60,29 @@ export default function Projects({ onNavigate }) {
       <article className="project-item">
         <span className="project-number">03</span>
         <div className="project-content">
+          <h3>
+            <a href="https://glowreviewproject.netlify.app/" target="_blank" rel="noopener noreferrer">
+              GlowReview
+            </a>
+          </h3>
+          <p>
+            A beauty and skincare review platform where users can discover,
+            rate, and share their experiences with products. Designed with a
+            clean, approachable interface that makes navigating reviews and
+            finding the right products feel intuitive and enjoyable.
+          </p>
+          <iframe
+            src="https://glowreviewproject.netlify.app/"
+            className="project-embed"
+            title="GlowReview site preview"
+            loading="lazy"
+          />
+        </div>
+      </article>
+
+      <article className="project-item">
+        <span className="project-number">04</span>
+        <div className="project-content">
           <h3>DustBuddies</h3>
           <p>
             A mobile chore management app that transforms shared responsibilities
@@ -83,7 +106,7 @@ export default function Projects({ onNavigate }) {
       </article>
 
       <article className="project-item">
-        <span className="project-number">04</span>
+        <span className="project-number">05</span>
         <div className="project-content">
           <h3>
             <a href="https://www.figma.com/design/7fkRq7ZH2gZwm1pXdi56qB/Mobile-App-Redesign?node-id=0-1&t=AbceVJ5NZuuBFGwd-1">
@@ -119,7 +142,7 @@ export default function Projects({ onNavigate }) {
       </article>
 
       <article className="project-item">
-        <span className="project-number">05</span>
+        <span className="project-number">06</span>
         <div className="project-content">
           <h3>
             <a href="https://students.gaim.ucf.edu/~sa519315/dig3134c/assignments/assignment05/login.php">
